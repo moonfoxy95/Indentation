@@ -1,0 +1,9 @@
+@import "./normalize.css";
+@import "./global_styles.css";
+
+@import "./section-intro.css";
+@import "./nav.css";
+@import "./section-1.css";
+@import "./section-2.css";
+@import "./section-3.css";
+@import "./section-summary.css";

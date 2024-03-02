@@ -1,0 +1,16 @@
+.section-summary {
+  padding-bottom: 50px;
+}
+
+.section-summary__list {
+  list-style-position: inside;
+  margin-bottom: 30px;
+}
+
+.section-summary__list-item::marker {
+  content:"— ";
+}
+
+.section-summary__list-item:not(:last-child) {
+  margin-bottom: 10px;
+}

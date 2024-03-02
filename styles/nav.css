@@ -1,0 +1,13 @@
+.section-navigation__list {
+  list-style-position: inside;
+}
+
+.section-navigation__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.section-navigation__link {
+  border-bottom: 1px solid black;
+  cursor: pointer;
+  color: #02535F;
+}

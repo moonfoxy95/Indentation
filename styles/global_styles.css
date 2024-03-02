@@ -1,0 +1,127 @@
+html {
+  box-sizing: border-box;
+  position: relative;  /* чтобы картинки случайно не выпали из html */
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 320px;  /* минимальная ширина старого смартфона */
+  min-height: 100vh;  /* body на всю высоту экрана, какой бы она ни была */
+
+  font-family: Roboto, sans-serif; /* основной (любой) и обязательно запасной */
+  font-size: 20px; /* стандарт; зависит от макета */
+  font-weight: 400;  /* стандарт; зависит от макета */
+  line-height: 1.2;
+
+  color: #000;  /* стандарт; зависит от макета */
+  background-color: #fff;  /* стандарт; зависит от макета */
+
+  /* из codeopen.io */
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+img, 
+svg {  /* картинка обязательно должна быть ограничена блоком, чтобы не выпадала */
+  display: block;  /* из codeopen.io */
+  max-width: 100%;  /* ширина родительского блока */
+  height: auto;  /* чтобы картинка не искажалась */
+}
+
+svg {
+  max-height: 100%;
+}
+
+button {
+  cursor: pointer;  /* по стандарту не прописан, но нужен */
+}
+
+a {
+  color: inherit;
+  text-decoration-line: none;
+}
+
+
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;  /* если точки будут нужны, прописывать через class */
+}
+
+h1, h2, h3, h4, p, figure, fieldset {
+  margin: 0;
+}
+
+.visually-hidden { 
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+/* custom */
+
+h1, h2 {
+  margin-bottom: 30px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+p:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.container-grey {
+  max-width: 1140px;
+  margin: 0 auto;
+  background-color: #F1F1F1;
+  border-radius: 10px;
+  padding: 25px 45px;
+}
+
+section,
+nav {
+  padding: 25px 0;
+}
+
+.section__title_mb_20px {
+  margin-bottom: 20px;
+}
+
+.section__title_font_big {
+  font-weight: 700;
+  font-size: 44px;
+}
+
+.image {
+  margin: 0 auto;
+}
+
+.section__image {
+  margin-bottom: 30px;
+}

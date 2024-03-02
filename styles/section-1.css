@@ -1,0 +1,27 @@
+.section__image_float_left {
+  float: left;
+}
+
+.section__image_float_right {
+  float: right;
+}
+
+.section__image_mr_30px {
+  margin-right: 30px;
+}
+
+.section__image_ml_40px {
+  margin-left: 40px;
+}
+
+.section__image_mb_0px {
+  margin-bottom: 0px;
+}
+
+.section__text_clear_left {
+  clear: left;
+}
+
+.section__text_clear_right {
+  clear: right;
+}
