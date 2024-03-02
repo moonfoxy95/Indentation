@@ -7,12 +7,16 @@
 }
 
 .section__figure {
-  margin-bottom: 30px;
+  margin-bottom: 30px;  
 }
 
 .section__figcaption {
   padding: 15px 30px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
-
-
+.image-5 {
+  border-top: 1px solid black; 
+}

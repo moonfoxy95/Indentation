@@ -25,3 +25,19 @@
 .section__text_clear_right {
   clear: right;
 }
+
+.section__text_max-width_480px {
+  max-width: 480px;
+}
+
+.section__text_max-width_480px {
+  max-width: 480px;  
+}
+
+.section__text_margin-left_auto {
+  margin-left: auto;
+}
+
+.section-1 .section__text_mb_0px {
+  margin-bottom: 0px;
+}
